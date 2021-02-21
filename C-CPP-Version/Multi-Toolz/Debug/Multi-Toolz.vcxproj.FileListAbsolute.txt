@@ -1,0 +1,2 @@
+C:\GitHub\multi-toolz\C-CPP-Version\Multi-Toolz\Debug\Multi-Toolz.exe
+C:\GitHub\multi-toolz\C-CPP-Version\Multi-Toolz\Debug\Multi-Toolz.pdb

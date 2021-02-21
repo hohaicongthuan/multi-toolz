@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UnitConverter">
+      <UniqueIdentifier>{5268d27c-0d36-48fc-9894-0fff9e957da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnitConverter">
+      <UniqueIdentifier>{53b81b1b-04aa-454f-8b3e-61123470258f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Angle.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Area.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Astronomical.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\ByteBit.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Density.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\ElectricCurrent.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Energy.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Force.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Frequency.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Fuel.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Length.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Mass.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Power.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Pressure.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Speed.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Temperature.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Time.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\UnitConverter.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Volume.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnitConverter\Weight.cpp">
+      <Filter>Source Files\UnitConverter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Angle.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Area.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Astronomical.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\ByteBit.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Density.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\ElectricCurrent.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Energy.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Force.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Frequency.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Fuel.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Length.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Mass.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Power.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Pressure.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Speed.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Temperature.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Time.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\UnitConverter.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Volume.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitConverter\Weight.h">
+      <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
