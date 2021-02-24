@@ -19,7 +19,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CryptographyTools\CRC-16HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\CRC-32HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\CryptographyTools.cpp" />
+    <ClCompile Include="src\CryptographyTools\HMACGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\MD2HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\MD4HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\MD5HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\MD6HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\NTLMHashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA1HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA224HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA256HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA2HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA3-224HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA3-256HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA3-384HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA3-512HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA384HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA512-224HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA512-256HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\SHA512HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\Shake-128HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\Shake-256HashGenerator.cpp" />
+    <ClCompile Include="src\CryptographyTools\WhirlpoolHashGenerator.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\NumberConverter\NumberConverter.cpp" />
+    <ClCompile Include="src\RandomTools\RandomTools.cpp" />
     <ClCompile Include="src\UnitConverter\Angle.cpp" />
     <ClCompile Include="src\UnitConverter\Area.cpp" />
     <ClCompile Include="src\UnitConverter\Astronomical.cpp" />
@@ -42,7 +68,33 @@
     <ClCompile Include="src\UnitConverter\Weight.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\CryptographyTools\CRC-16HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\CRC-32HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\CryptographyTools.h" />
+    <ClInclude Include="include\CryptographyTools\HMACGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\MD2HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\MD4HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\MD5HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\MD6HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\NTLMHashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA1HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA224HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA256HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA2HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA3-224HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA3-256HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA3-384HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA3-512HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA384HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA512-224HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA512-256HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\SHA512HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\Shake-128HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\Shake-256HashGenerator.h" />
+    <ClInclude Include="include\CryptographyTools\WhirlpoolHashGenerator.h" />
     <ClInclude Include="include\main.h" />
+    <ClInclude Include="include\NumberConverter\NumberConverter.h" />
+    <ClInclude Include="include\RandomTools\RandomTools.h" />
     <ClInclude Include="include\UnitConverter\Angle.h" />
     <ClInclude Include="include\UnitConverter\Area.h" />
     <ClInclude Include="include\UnitConverter\Astronomical.h" />

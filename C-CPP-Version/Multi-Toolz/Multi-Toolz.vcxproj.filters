@@ -19,6 +19,24 @@
     <Filter Include="Header Files\UnitConverter">
       <UniqueIdentifier>{53b81b1b-04aa-454f-8b3e-61123470258f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CryptographyTools">
+      <UniqueIdentifier>{a8f13a80-d336-4860-a2bd-c6945d18093c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NumberConverter">
+      <UniqueIdentifier>{86e4c730-2b24-4aec-b485-593c20893d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RandomTools">
+      <UniqueIdentifier>{9924a701-9142-4fde-9a35-ab81899f17a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CryptographyTools">
+      <UniqueIdentifier>{28339609-9548-4861-814a-aeefa5c713d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NumberConverter">
+      <UniqueIdentifier>{6cb6b137-4b79-45e1-ab21-db7f30d2a329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RandomTools">
+      <UniqueIdentifier>{a9934431-980e-4957-8fc0-64e3d249995d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -84,6 +102,84 @@
     <ClCompile Include="src\UnitConverter\Weight.cpp">
       <Filter>Source Files\UnitConverter</Filter>
     </ClCompile>
+    <ClCompile Include="src\CryptographyTools\CRC-16HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\CRC-32HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\CryptographyTools.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\HMACGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\MD2HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\MD4HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\MD5HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\MD6HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\NTLMHashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA1HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA2HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA3-224HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA3-256HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA3-384HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA3-512HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA224HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA256HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA384HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA512-224HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA512-256HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\SHA512HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\Shake-128HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\Shake-256HashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptographyTools\WhirlpoolHashGenerator.cpp">
+      <Filter>Source Files\CryptographyTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NumberConverter\NumberConverter.cpp">
+      <Filter>Source Files\NumberConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RandomTools\RandomTools.cpp">
+      <Filter>Source Files\RandomTools</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\main.h">
@@ -148,6 +244,84 @@
     </ClInclude>
     <ClInclude Include="include\UnitConverter\Weight.h">
       <Filter>Header Files\UnitConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\CRC-16HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\CRC-32HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\CryptographyTools.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\HMACGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\MD2HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\MD4HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\MD5HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\MD6HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\NTLMHashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA1HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA2HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA3-224HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA3-256HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA3-384HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA3-512HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA224HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA256HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA384HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA512-224HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA512-256HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\SHA512HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\Shake-128HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\Shake-256HashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptographyTools\WhirlpoolHashGenerator.h">
+      <Filter>Header Files\CryptographyTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NumberConverter\NumberConverter.h">
+      <Filter>Header Files\NumberConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RandomTools\RandomTools.h">
+      <Filter>Header Files\RandomTools</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

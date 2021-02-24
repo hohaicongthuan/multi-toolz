@@ -25,3 +25,7 @@ yards/hour
 yards/minute
 yards/second
 */
+
+double SpeedUnits[] = {};
+
+std::string SpeedUnitsName[] = {};

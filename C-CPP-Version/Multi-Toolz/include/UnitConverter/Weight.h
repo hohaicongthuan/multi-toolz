@@ -23,3 +23,7 @@ Ton (US, short)
 Tonne (t)
 TroyOunce
 */
+
+double WeightUnits[] = {};
+
+std::string WeightUnitsName[] = {};

@@ -32,3 +32,7 @@ quart (fluid) (qt)
 quart (UK) (qt)
 quart (US dry) (qt)
 */
+
+double VolumeUnits[] = {};
+
+std::string VolumeUnitsName[] = {};

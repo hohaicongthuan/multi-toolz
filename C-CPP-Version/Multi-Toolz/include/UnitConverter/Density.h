@@ -30,3 +30,36 @@ tonnes/cubic milliliter
 tons (UK)/cubic yard
 tons (US)/cubic yard
 */
+
+double DensityUnits[] = {};
+
+std::string DensityUnitsName[] = {
+	"Grains/gallon (UK)			",
+	"Grains/gallon (US)			",
+	"Grains/cubic foot			",
+	"Grains/cubic inch			",
+	"Grains/cubic yard			",
+	"Grams/cubic centimeters	",
+	"Grams/liter				",
+	"Grams/milliliters			",
+	"Kilograms/cubic meters		",
+	"Kilograms/liter			",
+	"Megagrams/cubic meter		",
+	"Milligrams/milliliter		",
+	"Milligrams/liter			",
+	"Ounces/cubic inch			",
+	"Ounces/gallon (UK)			",
+	"Ounces/gallon (US)			",
+	"Pounds/cubic inch			",
+	"Pounds/cubic foot			",
+	"Pounds/gallon (UK)			",
+	"Pounds/gallon (US)			",
+	"Slugs/cubic foot			",
+	"Tonnes/cubic centimeter	",
+	"Tonnes/cubic decimeter		",
+	"Tonnes/cubic meter			",
+	"Tonnes/cubic liter			",
+	"Tonnes/cubic milliliter	",
+	"Tons (UK)/cubic yard		",
+	"Tons(US)/cubic yard		"
+};

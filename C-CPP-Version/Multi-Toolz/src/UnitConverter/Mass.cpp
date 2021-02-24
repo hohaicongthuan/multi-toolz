@@ -1,1 +1,1 @@
-#pragma once
+#include "../../include/UnitConverter/Mass.h"

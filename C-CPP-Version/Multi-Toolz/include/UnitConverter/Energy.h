@@ -29,3 +29,7 @@ therms
 watt seconds [Ws]
 watt hours [Wh]
 */
+
+double EnergyUnits[] = {};
+
+std::string EnergyUnitsName[] = {};
