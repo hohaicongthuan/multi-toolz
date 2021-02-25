@@ -1,5 +1,8 @@
 #pragma once 
 
+#include <string>
+#include <iostream>
+#include <iomanip>
 /*
 arcminute
 arcsecond
@@ -19,23 +22,10 @@ sign
 turn
 */
 
-double AngleUnits[] = {};
+// Number of elements in the array
+#define ANGLE_ARRAY_SIZE 16
 
-std::string AngleUnitsName[] = {
-	"Arcminute			",
-	"Arcsecond			",
-	"Circle				",
-	"Degree				",
-	"Gon				",
-	"Grad				",
-	"Mil (Nato)			",
-	"Mil (Soviet Union)	",
-	"Mil (Sweden)		",
-	"Octant				",
-	"Quadrant			",
-	"Radian				",
-	"Revolution			",
-	"Sextant			",
-	"Sign				",
-	"Turn				"
-};
+extern double AngleUnits[];
+extern std::string AngleUnitsName[];
+
+void AngleConverter(int Answer, double num);

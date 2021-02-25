@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 barrel (petroleum) (bbl, bo)
 bushel (UK) (bu)

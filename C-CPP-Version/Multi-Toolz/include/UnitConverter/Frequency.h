@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 1/second
 cycle/second

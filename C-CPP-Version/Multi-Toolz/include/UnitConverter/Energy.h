@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 Btu (th)
 Btu (mean)

@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 centimeters/minute
 centimeters/second

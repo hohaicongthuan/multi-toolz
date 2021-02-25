@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 gallons (UK)/100 miles
 gallons (US)/100 miles

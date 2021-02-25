@@ -30,7 +30,7 @@ yard (yd)
 ===================================================================*/
 
 // Number of elements in the array
-#define LENGTH_ARRAYSIZE 22
+#define LENGTH_ARRAY_SIZE 22
 
 extern std::string LengthUnitsName[];
 extern double LengthUnits[];

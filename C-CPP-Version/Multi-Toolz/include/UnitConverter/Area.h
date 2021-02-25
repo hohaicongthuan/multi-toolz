@@ -1,5 +1,9 @@
 #pragma once 
 
+#include <string>
+#include <iostream>
+#include <iomanip>
+
 /*
 acreare (a)
 barn (b)
@@ -18,22 +22,10 @@ square yard (yd^2)
 township (twp)
 */
 
-double AreaUnits[] = {};
+// Number of elements in the array
+#define AREA_ARRAY_SIZE 15
 
-std::string AreaUnitsName[] = {
-	"Acreare (a)				",
-	"Barn (b)					",
-	"Hectare (ha)				",
-	"Homestead					",
-	"Rood						",
-	"Square centimeter (cm^2)	",
-	"Square foot (ft^2)			",
-	"Square inch (in^2)			",
-	"Square kilometer (km^2)	",
-	"Square meter (m^2)			",
-	"Square mile				",
-	"Square millimeter (mm^2)	",
-	"Square rod					",
-	"Square yard (yd^2)			",
-	"Township (twp)				",
-};
+extern double AreaUnits[];
+extern std::string AreaUnitsName[];
+
+void AreaConverter(int Answer, double num);

@@ -79,12 +79,12 @@ struct LengthUnitsResult {
 void LengthConverter(int Answer, double num) {
 	
 	// Temporarily convert to Angstrom
-	// Angstorm unit plays an intermediary roll in coverting
+	// Angstorm unit plays an intermediary role in converting
 	// back and forth between units
 	double ConvertToAngstrom = num / LengthUnits[Answer - 1];
 
 	// Loops to calculate and print the results for all units
-	for (int i = 0; i < LENGTH_ARRAYSIZE; i++) {
+	for (int i = 0; i < LENGTH_ARRAY_SIZE; i++) {
 		std::cout   << LengthUnitsName[i] << ">\t" 
                     // << std::fixed << std::setprecision(10)
                     << ConvertToAngstrom * LengthUnits[i]

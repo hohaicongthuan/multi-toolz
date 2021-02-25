@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 abampere [abA]
 ampere [A]

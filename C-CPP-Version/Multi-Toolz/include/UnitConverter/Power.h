@@ -1,5 +1,7 @@
 #pragma once 
 
+#include <string>
+
 /*
 Btu/hour
 Btu/minute
