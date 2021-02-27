@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 Celsius
@@ -10,6 +10,11 @@ Reaumur
 Kelvin
 */
 
-double TemperatureUnits[] = {};
+// Number of elements in the array
+#define TEMPERATURE_ARRAY_SIZE 5
 
-std::string TemperatureUnitsName[] = {};
+extern double TemperatureUnits[];
+extern std::string TemperatureUnitsName[];
+
+void TemperatureConverter(int Answer, double num);
+void TemperatureConverterInterface();

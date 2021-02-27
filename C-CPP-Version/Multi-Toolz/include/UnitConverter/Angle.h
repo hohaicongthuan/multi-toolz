@@ -1,8 +1,7 @@
 #pragma once 
 
-#include <string>
-#include <iostream>
-#include <iomanip>
+#include "UnitConverter.h"
+
 /*
 arcminute
 arcsecond
@@ -29,3 +28,4 @@ extern double AngleUnits[];
 extern std::string AngleUnitsName[];
 
 void AngleConverter(int Answer, double num);
+void AngleConverterInterface();

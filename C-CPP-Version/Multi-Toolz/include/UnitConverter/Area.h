@@ -1,8 +1,6 @@
 #pragma once 
 
-#include <string>
-#include <iostream>
-#include <iomanip>
+#include "UnitConverter.h"
 
 /*
 acreare (a)
@@ -29,3 +27,4 @@ extern double AreaUnits[];
 extern std::string AreaUnitsName[];
 
 void AreaConverter(int Answer, double num);
+void AreaConverterInterface();

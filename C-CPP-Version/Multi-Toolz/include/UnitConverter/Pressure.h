@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 atmospheres
@@ -39,6 +39,47 @@ tonnes-force/sq.meter
 torr (mm Hg 0°C)
 */
 
+// Number of elements in the array
+#define PRESSURE_ARRAY_SIZE 34
+
 double PressureUnits[] = {};
 
-std::string PressureUnitsName[] = {};
+std::string PressureUnitsName[] = {
+    "1. atmospheres                     ",
+    "2. bars                            ",
+    "3. centimeters mercury             ",
+    "4. centimeters water               ",
+    "5. feet of water                   ",
+    "6. hectopascals [hPa]              ",
+    "7. inches of water                 ",
+    "8. inches of mercury               ",
+    "9. kilogram-forces/sq.centimeter   ",
+    "10. kilogram-forces/sq.meter       ",
+    "11. kilonewtons/sq.meter           ",
+    "12. kilonewtons/sq.millimeter      ",
+    "13. kilopascals [kPa]              ",
+    "14. kips/sq.inch                   ",
+    "15. meganewtons/sq.meter           ",
+    "16. meganewtons/sq.millimeter      ",
+    "17. meters of water                ",
+    "18. millibars                      ",
+    "19. millimeters of mercury         ",
+    "20. millimeters of water           ",
+    "21. newtons/sq.centimeter          ",
+    "22. newtons/sq.meter               ",
+    "23. newtons/sq.millimeter          ",
+    "24. pascals [Pa]                   ",
+    "25. pounds-force/sq.foot           ",
+    "26. pounds-force/sq.inch [psi]     ",
+    "27. poundals/sq.foot               ",
+    "28. tons (UK)-force/sq.foot        ",
+    "29. tons (UK)-force/sq.inch        ",
+    "30. tons (US)-force/sq.foot        ",
+    "31. tons (US)-force/sq.inch        ",
+    "32. tonnes-force/sq.cm             ",
+    "33. tonnes-force/sq.meter          ",
+    "34. torr (mm Hg 0°C)               "
+};
+
+void PressureConverter(int Answer, double num);
+void PressureConverterInterface();

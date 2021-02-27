@@ -1,8 +1,6 @@
 #pragma once 
 
-#include <string>
-#include <iostream>
-#include <iomanip>
+#include "UnitConverter.h"
 
 /*===================================================================
 angstrom
@@ -37,6 +35,7 @@ extern double LengthUnits[];
 extern struct LengthUnitsResult;
 
 void LengthConverter(int Answer, double num);
+void LengthConverterInterface();
 
 /*
 double FromAngstrom(double x);

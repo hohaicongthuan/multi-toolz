@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 gallons (UK)/100 miles
@@ -12,6 +12,11 @@ miles/gallon (UK) (mpg)
 miles/gallon (US) (mpg)
 */
 
-double FuelUnits[] = {};
+// Number of elements in the array
+#define FUEL_ARRAY_SIZE 7
 
-std::string FuelUnitsName[] = {};
+extern double FuelUnits[];
+extern std::string FuelUnitsName[];
+
+void FuelConverter(int Answer, double num);
+void FuelConverterInterface();

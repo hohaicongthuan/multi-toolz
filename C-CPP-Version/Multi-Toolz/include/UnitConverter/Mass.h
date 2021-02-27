@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 carats (metric)
@@ -22,6 +22,11 @@ tons (US or short)
 tonnes
 */
 
-double MassUnits[] = {};
+// Number of elements in the array
+#define MASS_ARRAY_SIZE 17
 
-std::string MassUnitsName[] = {};
+extern double MassUnits[];
+extern std::string MassUnitsName[];
+
+void MassConverter(int Answer, double num);
+void MassConverterInterface();

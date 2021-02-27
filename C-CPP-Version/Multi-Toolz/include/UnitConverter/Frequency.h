@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 1/second
@@ -23,6 +23,11 @@ RPM
 terrahertz
 */
 
-double FrequencyUnits[] = {};
+// Number of elements in the array
+#define FREQUENCY_ARRAY_SIZE 18
 
-std::string FrequencyUnitsName[] = {};
+extern double FrequencyUnits[];
+extern std::string FrequencyUnitsName[];
+
+void FrequencyConverter(int Answer, double num);
+void FrequencyConverterInterface();

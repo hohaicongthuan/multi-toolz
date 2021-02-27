@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 barrel (petroleum) (bbl, bo)
@@ -35,6 +35,43 @@ quart (UK) (qt)
 quart (US dry) (qt)
 */
 
+// Number of elements in the array
+#define VOLUME_ARRAY_SIZE 30
+
 double VolumeUnits[] = {};
 
-std::string VolumeUnitsName[] = {};
+std::string VolumeUnitsName[] = {
+    "1. barrel (petroleum) (bbl, bo)    ",
+    "2. bushel (UK) (bu)                ",
+    "3. bushel (US dry) (bu)            ",
+    "4. centiliter (cl)                 ",
+    "5. cubic centimeter (cc, cm^3)     ",
+    "6. cubic decimeter (dm^3)          ",
+    "7. cubic foot (ft^3, cu ft)        ",
+    "8. cubic inch (in^3, cu in)        ",
+    "9. cubic meter (m^3)               ",
+    "10. cubic millimeter (mm^3)        ",
+    "11. cubic yard (yd^3)              ",
+    "12. dekaliter (dal)                ",
+    "13. fluid dram (fl dr)             ",
+    "14. fluid ounce (fl oz)            ",
+    "15. fluid ounce (UK) (fl oz)       ",
+    "16. gallon (fluid) (gal)           ",
+    "17. gallon (UK) (gal)              ",
+    "18. gill (gi)                      ",
+    "19. hectoliter (hl)                ",
+    "20. liter (l)                      ",
+    "21. microliter (μl)                ",
+    "22. milliliter (ml)                ",
+    "23. minim (min)                    ",
+    "24. peck (US dry) (pk)             ",
+    "25. pint (fluid) (pt)              ",
+    "26. pint (UK) (pt)                 ",
+    "27. pint (US dry) (pt)             ",
+    "28. quart (fluid) (qt)             ",
+    "29. quart (UK) (qt)                ",
+    "30. quart (US dry) (qt)            "
+};
+
+void VolumeConverter(int Answer, double num);
+void VolumeConverterInterface();

@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 Btu (th)
@@ -32,6 +32,11 @@ watt seconds [Ws]
 watt hours [Wh]
 */
 
-double EnergyUnits[] = {};
+// Number of elements in the array
+#define ENERGY_ARRAY_SIZE 27
 
-std::string EnergyUnitsName[] = {};
+extern double EnergyUnits[];
+extern std::string EnergyUnitsName[];
+
+void EnergyConverter(int Answer, double num);
+void EnergyConverterInterface();

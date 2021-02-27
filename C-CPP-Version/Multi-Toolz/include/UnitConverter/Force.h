@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 attonewton
@@ -42,6 +42,11 @@ zeptonewton
 zettanewton
 */
 
-double ForceUnits[] = {};
+// Number of elements in the array
+#define FORCE_ARRAY_SIZE 37
 
-std::string ForceUnitsName[] = {};
+extern double ForceUnits[];
+extern std::string ForceUnitsName[];
+
+void ForceConverter(int Answer, double num);
+void ForceConverterInterface();

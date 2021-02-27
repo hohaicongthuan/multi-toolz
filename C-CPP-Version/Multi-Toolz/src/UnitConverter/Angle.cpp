@@ -1,4 +1,3 @@
-#include "../../include/main.h"
 #include "../../include/UnitConverter/Angle.h"
 
 double AngleUnits[] = {
@@ -53,4 +52,36 @@ void AngleConverter(int Answer, double num) {
 			<< ConvertToArcminute * AngleUnits[i]
 			<< std::endl;
 	}
+}
+
+void AngleConverterInterface() {
+    int Answer = 0;
+    double num = 0;
+
+    do {
+        std::cout << "UNIT CONVERTER > ANGLE" << std::endl;
+        std::cout << "1. Arcminute\n";
+		std::cout << "2. Arcsecond\n";
+		std::cout << "3. Circle\n";
+		std::cout << "4. Degree\n";
+		std::cout << "5. Gon\n";
+		std::cout << "6. Grad\n";
+		std::cout << "7. Mil (Nato)\n";
+		std::cout << "8. Mil (Soviet Union)\n";
+		std::cout << "9. Mil (Sweden)\n";
+		std::cout << "10. Octant\n";
+		std::cout << "11. Quadrant\n";
+		std::cout << "12. Radian\n";
+		std::cout << "13. Revolution\n";
+		std::cout << "14. Sextant\n";
+		std::cout << "15. Sign\n";
+		std::cout << "16. Turn\n";
+        std::cout << "Which unit do you want to convert from?\nYour Choice: ";
+        std::cin >> Answer;
+    } while (Answer < 1 || Answer > 16);
+
+    std::cout << "\nEnter the number : ";
+    std::cin >> num;
+
+    AngleConverter(Answer, num);
 }

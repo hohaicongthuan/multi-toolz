@@ -1,6 +1,6 @@
 #pragma once 
 
-#include <string>
+#include "UnitConverter.h"
 
 /*
 centuries
@@ -27,6 +27,11 @@ years (Leap)
 years (Tropical)
 */
 
-double TimeUnits[] = {};
+// Number of elements in the array
+#define TIME_ARRAY_SIZE 22
 
-std::string TimeUnitsName[] = {};
+extern double TimeUnits[];
+extern std::string TimeUnitsName[];
+
+void TimeConverter(int Answer, double num);
+void TimeConverterInterface();
